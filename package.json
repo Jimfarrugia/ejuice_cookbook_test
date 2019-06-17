@@ -1,0 +1,19 @@
+{
+  "name": "ejuice_cookbook",
+  "version": "1.0.0",
+  "description": "Create, save and manage your eJuice recipes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimfarrugia/ejuice_cookbook.git"
+  },
+  "author": "Jim Farrugia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jimfarrugia/ejuice_cookbook/issues"
+  },
+  "homepage": "https://github.com/Jimfarrugia/ejuice_cookbook#readme"
+}
