@@ -4,7 +4,8 @@
   "description": "Create, save and manage your eJuice recipes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Jimfarrugia/ejuice_cookbook/issues"
   },
-  "homepage": "https://github.com/Jimfarrugia/ejuice_cookbook#readme"
+  "homepage": "https://github.com/Jimfarrugia/ejuice_cookbook#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
 }
